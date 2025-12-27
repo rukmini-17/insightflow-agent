@@ -14,5 +14,10 @@
 		"typescript": "^5.5.2",
 		"vitest": "~3.2.0",
 		"wrangler": "^4.54.0"
+	},
+	"dependencies": {
+		"@cloudflare/ai": "^1.2.2",
+		"base64-js": "^1.5.1",
+		"mustache": "^4.2.0"
 	}
 }
