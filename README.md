@@ -17,10 +17,10 @@ InsightFlow is a "Full Stack Data Science" application designed to bridge the ga
 Instead of writing SQL, users ask plain English questions like *"What is the revenue for Laptops?"* or *"Forecast sales for next month."* The system intelligently routes the request to either a **Generative AI Model (Llama 3)** for query generation or a **Custom Predictive Engine** for time-series forecasting.
 
 ## 🌟 Key Features
-* ** Text-to-SQL Engine:** Utilizes **Llama 3-8b-instruct** (via Cloudflare Workers AI) to convert natural language into safe, read-only SQL queries with 92% accuracy.
-* ** Predictive Analytics:** Features a custom **Linear Regression (Least Squares)** algorithm written from scratch in TypeScript to forecast future sales trends without external ML libraries.
-* ** Serverless Edge:** Hosted entirely on **Cloudflare Workers**, ensuring <50ms cold starts and global low-latency access.
-* ** D1 Database:** Uses Cloudflare D1 (SQLite at the Edge) to handle 1,000+ rows of transactional sales data.
+* **Text-to-SQL Engine:** Utilizes **Llama 3-8b-instruct** (via Cloudflare Workers AI) to convert natural language into safe, read-only SQL queries with 92% accuracy.
+* **Predictive Analytics:** Features a custom **Linear Regression (Least Squares)** algorithm written from scratch in TypeScript to forecast future sales trends without external ML libraries.
+* **Serverless Edge:** Hosted entirely on **Cloudflare Workers**, ensuring <50ms cold starts and global low-latency access.
+* **D1 Database:** Uses Cloudflare D1 (SQLite at the Edge) to handle 1,000+ rows of transactional sales data.
 
 ---
 
