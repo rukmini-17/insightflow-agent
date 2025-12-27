@@ -1,8 +1,12 @@
 # 🚀 InsightFlow: Serverless AI Analytics Agent
 
-**Tech Stack:** Cloudflare Workers, D1 (SQLite), Llama 3 (AI), TypeScript
+**InsightFlow** was built to solve a common bottleneck in data teams: the gap between business questions and database answers. Typically, answering a question like *"What is our forecasted revenue for next month?"* requires a Data Analyst to write complex SQL and Python scripts.
 
-An intelligent agent that converts natural language into SQL queries and performs linear regression forecasting entirely on edge infrastructure.
+InsightFlow automates this pipeline by treating **Natural Language as a Query Interface**. It takes a hybrid approach to AI:
+* **Generative AI (Llama 3)** is used for the *semantic* task of understanding user intent and generating complex SQL queries.
+* **Deterministic Math (TypeScript)** is used for the *analytical* task of Linear Regression and forecasting, ensuring mathematical accuracy without hallucinations.
+
+By deploying entirely on **Cloudflare Workers (Edge)**, this application eliminates cold starts and processes data milliseconds away from the user, demonstrating a modern, high-performance architecture for AI tools.
 
 ![Demo Preview](insightflow.gif)
 
