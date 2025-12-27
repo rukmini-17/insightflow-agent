@@ -60,7 +60,7 @@ To run this project locally, you need `Node.js` and `Wrangler` installed.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/insightflow-agent.git](https://github.com/YOUR_USERNAME/insightflow-agent.git)
+git clone [https://github.com/rukmini-17/insightflow-agent.git](https://github.com/rukmini-17/insightflow-agent.git)
 cd insightflow-agent
 ```
 ### 2. Install dependencies
